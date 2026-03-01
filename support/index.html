@@ -1,13 +1,165 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Support page for Anti Slot.">
   <title>Support - Anti Slot</title>
+  <style>
+    :root{
+      --bg:#f4f7f6;
+      --card:#ffffff;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --border:#e5e7eb;
+      --link:#2563eb;
+      --shadow:0 10px 30px rgba(0,0,0,.06);
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.7;
+      margin:0;
+      padding:24px;
+    }
+    .container{
+      max-width:900px;
+      margin:40px auto;
+      background:var(--card);
+      padding:44px;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      border:1px solid rgba(229,231,235,.6);
+    }
+    header{
+      margin-bottom:28px;
+      padding-bottom:18px;
+      border-bottom:1px solid var(--border);
+    }
+    h1{
+      margin:0 0 8px 0;
+      font-size:2.1rem;
+      letter-spacing:-.02em;
+    }
+    .sub{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 16px;
+      align-items:center;
+      color:var(--muted);
+      font-size:.95rem;
+    }
+    .badge{
+      display:inline-block;
+      padding:4px 10px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      background:#fafafa;
+      color:var(--muted);
+      font-size:.85rem;
+    }
+    nav{
+      margin-top:14px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 14px;
+      font-size:.95rem;
+    }
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    h2{
+      margin-top:28px;
+      margin-bottom:10px;
+      font-size:1.25rem;
+      color:#111827;
+    }
+    p{margin:0 0 14px 0;color:#374151}
+    ul{margin:0 0 14px 22px;color:#374151}
+    li{margin:6px 0}
+    .note{
+      background:#f8fafc;
+      border:1px solid var(--border);
+      border-radius:10px;
+      padding:14px 16px;
+      color:#374151;
+      margin:18px 0;
+    }
+    .card{
+      border:1px solid var(--border);
+      border-radius:12px;
+      padding:16px 18px;
+      background:#ffffff;
+      margin:14px 0;
+    }
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .footer{
+      margin-top:34px;
+      padding-top:18px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:.92rem;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 16px;
+      justify-content:space-between;
+      align-items:center;
+    }
+    @media (max-width:560px){
+      .container{padding:26px}
+      h1{font-size:1.7rem}
+    }
+  </style>
 </head>
 <body>
-  <h1>Support</h1>
-  <p>If you need help with Anti Slot, please contact us at:</p>
-  <p><strong>antislot02@gmail.com</strong></p>
-  <p>We aim to respond within 48 hours.</p>
+
+<div class="container">
+  <header>
+    <h1>Support</h1>
+    <div class="sub">
+      <span class="badge">Anti Slot</span>
+      <span>Need help? We’re here.</span>
+    </div>
+
+    <nav aria-label="Quick links">
+      <a href="https://antislot-legal.vercel.app/privacy">Privacy Policy</a>
+      <a href="https://antislot-legal.vercel.app/terms">Terms of Service</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <p>
+    If you have questions, feedback, or need support with Anti Slot, contact us using the options below.
+  </p>
+
+  <div class="note">
+    <strong>Typical response time:</strong> within 24–48 hours (business days).
+  </div>
+
+  <h2 id="contact">Contact</h2>
+
+  <div class="card">
+    <p><strong>Email</strong></p>
+    <p>
+      <a class="mono" href="mailto:antislot02@gmail.com"><strong>antislot02@gmail.com</strong></a>
+    </p>
+  </div>
+
+  <h2>Helpful info to include</h2>
+  <ul>
+    <li>Your device model and OS version</li>
+    <li>App version</li>
+    <li>What you were doing when the issue happened</li>
+    <li>Screenshots (if possible)</li>
+  </ul>
+
+  <div class="footer">
+    <span>© <span class="mono">2026</span> Anti Slot</span>
+    <span><a href="https://antislot-legal.vercel.app/privacy">Privacy</a> · <a href="https://antislot-legal.vercel.app/terms">Terms</a></span>
+  </div>
+</div>
+
 </body>
 </html>
